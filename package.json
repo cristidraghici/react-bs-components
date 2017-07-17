@@ -1,13 +1,9 @@
 {
   "name": "react-bs-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Bootstrap components ready to use in your project Edit",
-  "main": "dist/index.js",
-  "scripts": {
-    "test": "babel-node test/index.js",
-    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
-    "prepare": "npm run build"
-  },
+  "main": "src/index.js",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cristidraghici/react-bs-components.git"
@@ -23,11 +19,22 @@
   },
   "homepage": "https://github.com/cristidraghici/react-bs-components#readme",
   "dependencies": {
+    "axios": "^0.16.2",
     "chalk": "^2.0.1",
-    "lodash": "^4.17.4"
+    "classnames": "^2.2.5",
+    "copy-to-clipboard": "^3.0.6",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-autosize-textarea": "^0.4.7",
+    "react-bootstrap": "^0.31.1",
+    "react-bootstrap-date-picker": "^5.0.1",
+    "react-dropzone": "^3.13.3",
+    "react-select": "^1.0.0-rc.5"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-es2015": "^6.24.1"
   }
 }
