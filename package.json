@@ -2,7 +2,7 @@
   "name": "react-bs-components",
   "version": "1.0.1",
   "description": "React Bootstrap components ready to use in your project Edit",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "babel src --presets babel-preset-es2015-loose,stage-1,react --out-dir dist",
     "prepare": "npm run build"
