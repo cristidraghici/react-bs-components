@@ -18,7 +18,8 @@ const propTypes = {
 
 const defaultProps = {
     className: '',
-    autoSize: false
+    autoSize: false,
+    label: ''
 }
 
 //
