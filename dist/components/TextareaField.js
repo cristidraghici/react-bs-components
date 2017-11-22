@@ -35,7 +35,8 @@ var propTypes = {
 
 var defaultProps = {
     className: '',
-    autoSize: false
+    autoSize: false,
+    label: ''
 
     //
     // The component

@@ -1,6 +1,6 @@
 {
   "name": "react-bs-components",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React Bootstrap components ready to use in your project Edit",
   "main": "dist/index.js",
   "scripts": {
@@ -34,7 +34,7 @@
     "react-bootstrap-date-picker": "^5.1.0",
     "react-dom": "^15.6.1",
     "react-dropzone": "^3.13.3",
-    "react-select": "^1.0.0-rc.5"
+    "react-select": "^1.0.0-rc.10"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
